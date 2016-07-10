@@ -1,0 +1,21 @@
+body {
+    padding: 60px;
+    margin-top: 40px;
+    font: 14px"Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgba(109, 84, 84, 0.5);
+}
+th.icons {
+    font: 14px"Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+    color: #00B7FF;
+}
+.layout {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.table {
+    border-spacing: 10px;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}

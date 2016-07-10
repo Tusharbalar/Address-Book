@@ -1,0 +1,21 @@
+<div ng-controller="ContactCtrl" ng-init="findOne()">
+    <form name="contactForm" class="layout" ng-submit="save()">
+        <div class="form-group">
+            <label for="contactFirstName">First name</label>
+            <input type="text" ng-model="contact.firstName" placeholder="Enter First Name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="contactLastName">Last name</label>
+            <input type="text" ng-model="contact.lastName" placeholder="Enter Last Name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" ng-model="contact.email" placeholder="Enter Email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="contactPhone">Phone</label>
+            <input type="tel" ng-model="contact.phone" placeholder="Enter contact number" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
